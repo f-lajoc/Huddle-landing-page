@@ -1,0 +1,156 @@
+:root{
+  --violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%);
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }   
+ 
+ body{
+    background: var(--violet) url("images/bg-mobile.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5em 2.1em 2em;
+    font-size: 5vw;
+ }
+  
+  /* header logo styling */
+ .logo img{
+   width: 50%;
+   padding: 0 0 2.2em;
+ }
+ 
+ #logo{
+  text-align: left;
+}
+ 
+ /* body img */
+ .illustration img{
+   width: 100%;
+   padding: 1.8em 0 2.5em;
+ }
+ 
+   /* typography */  
+ h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 8vw;
+ }
+ 
+ p{
+   padding: 1em 0 2em;
+   line-height: 1.5;
+   
+ }
+  
+  /* register button */
+ .button{background-color: white;
+  border-radius: 10vw;
+  border: none;
+  font-size: 4vw;
+  padding: 0.5em 5em;
+  text-decoration: none;
+  background-color: white;
+  color: var(--violet);
+ }
+ 
+  .button:hover, .button:active{
+  color: white;
+  background-color: var(--softMagenta);
+  outline: none;
+}
+
+/* hover state for icons */
+ ul li:hover{
+  border: 1px solid var(--softMagenta);
+}
+
+.fa-facebook-f:hover, .fa-instagram:hover, .fa-twitter:hover{
+  color: var(--softMagenta);
+}
+
+/* space between the icons and register button */
+.icons{
+  padding: 3em 0;
+  
+}
+
+/* icons styling */
+ul li{ 
+  list-style-type: none;
+  display: inline;
+  padding: 0.5em;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 70%; 
+  text-align: center;
+}
+
+ /* to make Facebook and IG be in perfect circle */
+ .fa-facebook-f, .fa-instagram, .fa-twitter{
+  width: 1.3em;
+  
+ }
+ 
+/*for space between main content and footer */
+main{
+  padding: 0 0 1em;
+}
+
+   .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: white;
+    text-decoration: none; }
+
+
+/* Responsiveness on screen 600px above */
+@media only screen and (min-width: 600px){
+
+ body{
+    background: var(--violet) url("images/bg-desktop.svg") no-repeat;
+    background-size: cover;
+    font-size: 3vw;
+    margin: 0.5em 1.5em 1em;
+    text-align: left;
+}
+ 
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+  
+  .illustration img{
+  width: 60vw;   
+  padding-right: 1em;
+}
+
+h1{
+  font-size: 3vw;
+  padding-top: 5em;
+} 
+
+p{
+  font-size: 2vw;
+}
+
+.button{
+  border-radius: 4vmax;
+  padding: 0.3em 2em;
+  font-size: 2vw; 
+  text-align: center;
+}
+
+.icons{
+ padding-left: 5em;
+}
+
+ul li{
+  font-size: 50%;
+}
+}
