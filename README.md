@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![design desktop view](screenshot/desktop-view.jpg)
+![design desktop view](screenshot/desktop-active-view.png)
 
 ### Links
 
