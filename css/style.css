@@ -10,7 +10,7 @@
     }   
  
  body{
-    background: var(--violet) url("images/bg-mobile.svg") no-repeat;
+    background: var(--violet) url("/images/bg-mobile.svg") no-repeat;
     background-size: contain;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -113,7 +113,7 @@ main{
 @media only screen and (min-width: 600px){
 
  body{
-    background: var(--violet) url("images/bg-desktop.svg") no-repeat;
+    background: var(--violet) url("/images/bg-desktop.svg") no-repeat;
     background-size: cover;
     font-size: 3vw;
     margin: 0.5em 1.5em 1em;
