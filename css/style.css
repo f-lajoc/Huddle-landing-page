@@ -58,7 +58,7 @@
   text-decoration: none;
   background-color: white;
   color: var(--violet);
-  box-shadow: 4px 5px 4px #523c8d;
+  box-shadow: 4px 5px 4px black;
  }
  
   .button:hover, .button:active{
